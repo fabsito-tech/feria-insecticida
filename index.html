@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alcohol de ajo — Muestra anual 2026</title>
+  <meta name="description" content="Proyecto escolar sobre alcohol de ajo, preparación, plagas que menciona el afiche y recomendaciones de uso en la huerta.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Alcohol de ajo — Muestra anual 2026">
+  <meta property="og:description" content="Proyecto de la E.E.S.T. N° 9 sobre un preparado de ajo para la huerta.">
+  <style>
+    :root { --green:#176b52; --deep:#153e31; --mint:#dff2df; --sage:#eaf3e7; --yellow:#ffe98a; --paper:#fbfaf4; --ink:#213b30; --muted:#5c6f63; --line:#d8e4d8; --blue:#35689c; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; color:var(--ink); background:var(--paper); font-family:system-ui,-apple-system,"Segoe UI",sans-serif; line-height:1.58; }
+    .wrap { width:min(1040px,calc(100% - 32px)); margin:0 auto; }
+    header { padding:38px 0 32px; color:white; background:linear-gradient(128deg,#124c3a,#24805a); }
+    .topline { display:flex; justify-content:space-between; align-items:center; gap:16px; margin-bottom:24px; color:#dff2df; font-size:.9rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; }
+    .tag { padding:6px 11px; border:1px solid #ffffff44; border-radius:999px; }
+    h1 { max-width:760px; margin:0; font-size:clamp(2.5rem,8vw,4.7rem); line-height:.98; letter-spacing:-.055em; }
+    .subtitle { margin:15px 0 0; color:#e5f1e9; font-size:clamp(1.1rem,3vw,1.35rem); font-weight:650; }
+    .hero-copy { max-width:780px; margin:15px 0 0; color:#eef7ef; }
+    .meta { display:flex; flex-wrap:wrap; gap:8px 22px; margin-top:22px; color:#e3f0e6; font-size:.94rem; }
+    .meta p { margin:0; }
+    nav { display:flex; flex-wrap:wrap; gap:9px; padding:17px 0 0; }
+    nav a { color:var(--deep); background:#fff; border:1px solid var(--line); border-radius:999px; padding:8px 13px; text-decoration:none; font-size:.9rem; font-weight:750; }
+    nav a:hover,nav a:focus-visible { outline:3px solid #b9d9a8; outline-offset:2px; }
+    main { padding:30px 0 20px; }
+    section { scroll-margin-top:18px; margin:0 0 22px; padding:24px; border:1px solid var(--line); border-radius:21px; background:#fff; box-shadow:0 8px 24px #193f2d0b; }
+    h2 { margin:0 0 15px; font-size:clamp(1.45rem,4vw,2rem); line-height:1.15; letter-spacing:-.025em; }
+    h3 { margin:0 0 6px; font-size:1.05rem; }
+    p { margin:0 0 10px; }
+    .lead { color:var(--muted); font-size:1.03rem; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:13px; }
+    .tile { min-height:100%; padding:16px; border:1px solid var(--line); border-radius:16px; background:#fbfdf8; }
+    .tile strong { color:var(--green); }
+    .emoji { display:block; margin-bottom:5px; font-size:1.6rem; }
+    .tools { grid-template-columns:repeat(4,minmax(0,1fr)); }
+    .tool { text-align:center; }
+    .ingredients { grid-template-columns:repeat(3,minmax(0,1fr)); }
+    .ingredient { background:#fff9d9; border-color:#f0e6a6; text-align:center; }
+    .ingredient .emoji { font-size:2rem; }
+    .list { margin:0; padding-left:1.25rem; }
+    .list li { margin:8px 0; }
+    .care { background:#f0faf0; border-left:5px solid #58a46a; }
+    .safety { margin-top:14px; padding:14px 16px; border-radius:13px; background:#fff7e3; border:1px solid #f2dfa7; color:#5b4a1f; }
+    .safety strong { display:block; margin-bottom:3px; }
+    .steps { display:grid; grid-template-columns:1fr; gap:10px; counter-reset:step; }
+    .step { display:grid; grid-template-columns:44px 1fr; align-items:start; gap:12px; padding:14px; border-radius:15px; background:#f4f0ff; border:1px solid #e5def6; }
+    .num { display:grid; place-items:center; width:38px; height:38px; border-radius:50%; color:white; background:#7251a5; font-weight:800; font-size:1.1rem; }
+    .step p { margin:0; color:var(--muted); }
+    .pests { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+    .pest { padding:15px; border-radius:15px; background:#eff7eb; border:1px solid #d9e9d0; }
+    .pest h3 { color:var(--green); }
+    .pest p { margin:0; color:var(--muted); }
+    .application .step { background:#eef6fb; border-color:#d8e8f2; }
+    .application .num { background:var(--blue); }
+    .closing { padding:27px 22px; text-align:center; color:white; background:linear-gradient(130deg,#176b52,#2b8a5f); border:0; }
+    .closing blockquote { margin:0; font-family:Georgia,serif; font-size:clamp(1.25rem,4vw,1.8rem); font-style:italic; }
+    .closing p { margin:9px 0 0; color:#e4f3e7; }
+    footer { margin-top:28px; padding:23px 0 28px; text-align:center; border-top:1px solid var(--line); color:var(--muted); }
+    footer p { margin:4px 0; }
+    footer a { color:var(--green); font-weight:700; text-decoration-thickness:1px; text-underline-offset:3px; }
+    @media (max-width:700px) { .tools { grid-template-columns:repeat(2,minmax(0,1fr)); } .pests { grid-template-columns:1fr; } .topline { align-items:flex-start; flex-direction:column; } }
+    @media (max-width:540px) { .ingredients { grid-template-columns:1fr; } section { padding:19px; } .grid { grid-template-columns:1fr; } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="topline"><span>Muestra anual 2026</span><span class="tag">E.E.S.T. N° 9</span></div>
+      <h1>Alcohol de ajo</h1>
+      <p class="subtitle">Un pesticida casero para la huerta</p>
+      <p class="hero-copy">El afiche presenta el alcohol de ajo como un preparado orgánico que ayuda a prevenir y controlar plagas en la huerta; también destaca que es fácil de elaborar, económico y que cuida el ambiente.</p>
+      <div class="meta">
+        <p><strong>Escuela:</strong> E.E.S.T. N° 9 — Prof. Antonio José Rodríguez</p>
+        <p><strong>Elaborado por:</strong> alumnos de 1ro 3ra</p>
+      </div>
+    </div>
+  </header>
+  <div class="wrap">
+    <nav aria-label="Secciones de la página">
+      <a href="#herramientas">Herramientas</a>
+      <a href="#ingredientes">Ingredientes</a>
+      <a href="#cuidados">Cuidados</a>
+      <a href="#elaboracion">Elaboración</a>
+      <a href="#plagas">Plagas</a>
+      <a href="#aplicacion">Aplicación</a>
+    </nav>
+  </div>
+  <main class="wrap">
+    <section id="herramientas">
+      <h2>Herramientas que se utilizan</h2>
+      <div class="grid tools">
+        <div class="tile tool"><span class="emoji" aria-hidden="true">🔪</span><strong>Cuchillo y tabla</strong><p>Para pelar y picar el ajo.</p></div>
+        <div class="tile tool"><span class="emoji" aria-hidden="true">🫙</span><strong>Frasco con tapa</strong><p>Para colocar el ajo y dejarlo macerar.</p></div>
+        <div class="tile tool"><span class="emoji" aria-hidden="true">🥛</span><strong>Jarra medidora</strong><p>O vaso graduado.</p></div>
+        <div class="tile tool"><span class="emoji" aria-hidden="true">🚿</span><strong>Pulverizador</strong><p>Para aplicar el preparado.</p></div>
+      </div>
+    </section>
+
+    <section id="ingredientes">
+      <h2>Ingredientes y cantidades</h2>
+      <div class="grid ingredients">
+        <div class="tile ingredient"><span class="emoji" aria-hidden="true">🧄</span><h3>Ajo</h3><p>10 dientes, aproximadamente.</p></div>
+        <div class="tile ingredient"><span class="emoji" aria-hidden="true">🧴</span><h3>Alcohol etílico 70%</h3><p>1 litro.</p></div>
+        <div class="tile ingredient"><span class="emoji" aria-hidden="true">💧</span><h3>Agua</h3><p>1 litro.</p></div>
+      </div>
+    </section>
+
+    <section class="care" id="cuidados">
+      <h2>Recomendaciones y cuidados</h2>
+      <ul class="list">
+        <li>Usá guantes y cuidá tus ojos al manipular el alcohol.</li>
+        <li>No lo apliques en días de mucho sol ni con altas temperaturas.</li>
+        <li>Probá primero en una pequeña parte de la planta.</li>
+        <li>Mantenelo en un lugar fresco y oscuro.</li>
+      </ul>
+      <div class="safety"><strong>Importante sobre el alcohol</strong>El alcohol etílico es inflamable: mantenelo lejos del fuego y de fuentes de calor, y manipulalo siguiendo las indicaciones de una persona adulta o docente.</div>
+    </section>
+
+    <section id="elaboracion">
+      <h2>Pasos para su elaboración</h2>
+      <div class="steps">
+        <article class="step"><span class="num">1</span><div><h3>Pelar y picar el ajo</h3><p>Quitá la cáscara de los dientes y picalos en trozos pequeños para que liberen mejor sus compuestos.</p></div></article>
+        <article class="step"><span class="num">2</span><div><h3>Colocar en el frasco</h3><p>Llená un frasco o recipiente con tapa con el ajo picado.</p></div></article>
+        <article class="step"><span class="num">3</span><div><h3>Agregar el alcohol</h3><p>Verté alcohol etílico al 70% hasta cubrir completamente el ajo.</p></div></article>
+        <article class="step"><span class="num">4</span><div><h3>Dejar macerar</h3><p>Cerrá el frasco y dejalo reposar de 7 a 10 días en un lugar fresco y oscuro, agitándolo una vez por día.</p></div></article>
+        <article class="step"><span class="num">5</span><div><h3>Colar y completar</h3><p>Pasado ese tiempo, colá la mezcla, agregá 1 litro de agua, mezclá bien y pasala al pulverizador.</p></div></article>
+      </div>
+    </section>
+
+    <section id="plagas">
+      <h2>¿Para qué tipo de plagas sirve?</h2>
+      <p class="lead">El afiche menciona estas plagas y describe los siguientes daños:</p>
+      <div class="pests">
+        <article class="pest"><h3>Pulgones</h3><p>Chupan la savia, debilitan los brotes, deforman las hojas y pueden transmitir virus.</p></article>
+        <article class="pest"><h3>Mosca blanca</h3><p>Chupa la savia, puede provocar amarillamiento y caída de hojas, y transmitir virus a otras plantas.</p></article>
+        <article class="pest"><h3>Arañuela roja</h3><p>Raspa la superficie de las hojas y puede causar manchas amarillas, secamiento y caída de hojas.</p></article>
+        <article class="pest"><h3>Trips</h3><p>Dañan flores, hojas y frutos, provocando deformaciones, manchas plateadas y pérdida de calidad.</p></article>
+        <article class="pest"><h3>Orugas</h3><p>Comen hojas, tallos y frutos, provocando agujeros y defoliación.</p></article>
+        <article class="pest"><h3>Hormigas</h3><p>No dañan directamente la planta, pero pueden proteger a otros insectos, como los pulgones, y dañar semillas y brotes.</p></article>
+      </div>
+    </section>
+
+    <section class="application" id="aplicacion">
+      <h2>¿Cómo se coloca?</h2>
+      <div class="steps">
+        <article class="step"><span class="num">1</span><div><h3>Llená el pulverizador</h3><p>Colocá el preparado en el pulverizador.</p></div></article>
+        <article class="step"><span class="num">2</span><div><h3>Aplicá de forma pareja</h3><p>Rociá hojas, tallos y el envés de las plantas en forma fina y pareja.</p></div></article>
+        <article class="step"><span class="num">3</span><div><h3>Elegí el momento adecuado</h3><p>Hacé la aplicación por la mañana o al atardecer, evitando el sol fuerte.</p></div></article>
+        <article class="step"><span class="num">4</span><div><h3>Repetí si hace falta</h3><p>El afiche recomienda repetir cada 5 a 7 días o después de las lluvias.</p></div></article>
+      </div>
+    </section>
+
+    <section class="closing">
+      <blockquote>“Una huerta sin plagas es una huerta más sana y productiva.”</blockquote>
+      <p>Cuidar la huerta también es cuidar el futuro.</p>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap">
+      <p><strong>E.E.S.T. N° 9 — Prof. Antonio José Rodríguez</strong></p>
+      <p>Profesoras: Noelya Medina y Verónica Desimone</p>
+      <p>Elaborado por los alumnos de 1ro 3ra</p>
+      <p>Contacto: <a href="mailto:fabsito682@gmail.com">fabsito682@gmail.com</a></p>
+    </div>
+  </footer>
+</body>
+</html>
